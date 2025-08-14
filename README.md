@@ -7,5 +7,12 @@ Used further for matching calendar days with trading days.
 
 **requirements.txt** - Requirede files
 
+**STEPS FOLLOWED:**
+1) Stock sentiment creation as per trading days (Not calendar days)
+2) Optuna Hyperband optimization to find the best params
+3) Trained the TFT model with the best params.
+4) SciPy optimization on the final TFT return-based model
+5) Also explored other methods of optimization, like Reinforcement learning (PPO)
+
 OUTPUT: 
 <img width="819" height="839" alt="image" src="https://github.com/user-attachments/assets/82dfb77b-5871-439f-85ed-f6612a1dfb8a" />
